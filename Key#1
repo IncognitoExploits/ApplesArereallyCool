@@ -1,2 +1,2 @@
 local key = "testkey313jfaiajkjaeaa"
-game:GetService("ReplicatedStorage").GlobalAnnouncment.Value = key
+game:GetService("ReplicatedStorage").ServerInfo.ServerLocation.Value = key
