@@ -1,0 +1,2 @@
+local key = "testkey313jfaiajkjaeaa"
+game:GetService("ReplicatedStorage").GlobalAnnouncment.Value = key
