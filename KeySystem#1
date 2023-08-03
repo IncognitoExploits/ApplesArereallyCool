@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-		loadstring(https://raw.githubusercontent.com/IncognitoExploits/ArcadeHavenKeySystem/main/Key%231",true))()
+		loadstring("https://raw.githubusercontent.com/IncognitoExploits/YumYumApples/main/%231",true))()
 		OrionLib:MakeNotification({
 			Name = "Key System",
 			Content = "Key System Loaded",
@@ -45,7 +45,7 @@ KeySection:AddTextbox({
 KeySection:AddButton({
 	Name = "Confirm Key",
 	Callback = function()
-		key = game:GetService("ReplicatedStorage").Minigames.Jackpot.JackpotCap.Value
+		key = game:GetService("ReplicatedStorage").ServerInfo.ServerLocation.Value
  
 		print(key)
 		print(keyInput)
