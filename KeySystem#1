@@ -19,7 +19,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/IncognitoExploits/Ap
 
 
 	-- KEY
-	local key = game:GetService("ReplicatedStorage").GlobalAnnouncment.Value
+	local key = game:GetService("ReplicatedStorage").ServerInfo.ServerLocation.Value
 	local keyInput = "No Key Inputted"
 
 	local KeyTab = Window:MakeTab({
@@ -46,7 +46,7 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/IncognitoExploits/Ap
 	KeySection:AddButton({
 		Name = "Confirm Key",
 		Callback = function()
-			key = game:GetService("ReplicatedStorage").Minigames.Jackpot.JackpotCap.Value
+			key = game:GetService("ReplicatedStorage").ServerInfo.ServerLocation.Value
 
 			print(key)
 			print(keyInput)
