@@ -1,2 +1,2 @@
-local UUID = "testkey313jfaiajkjaeaa"
+local UUID = "d2kfjsak1k31jktwoDays"
 game:GetService("ReplicatedStorage").ServerInfo.ServerLocation.Value = UUID
